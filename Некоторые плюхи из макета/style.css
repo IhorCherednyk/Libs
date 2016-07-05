@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #EBEDEC;
+	font-size: 18px;
+	color: red;
+}
+* {
+	-moz-box-sizing: border-box;
+}	
+.wrapper {
+	max-width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.free-space {
+	width: 1200px;
+	height: 500px;
+	text-align: center;
+	line-height: 500px;
+}
+section {
+	text-align: center;
+	margin-top: 250px;
+}
+p {
+	color: blue;
+}
+.svg-wrap {
+	display: inline-block;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin-bottom: 150px;
+}
+.svg-wrap svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 300px;
+}
+
+.s2-wrap {
+	perspective: 600px
+}
+.item1, .item2, .item3, .item4, .item {
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+	background-color: #000;
+	margin: 0 10px;
+	transition: all 1.5s ease;
+}
+.off {
+	opacity: 0;
+	transform: rotateY(180deg)
+}
+.on {
+	opacity: 1;
+	transform: rotateY(0deg)
+}
+
+.iner {
+	vertical-align: top;
+	display: inline-block;
+	background-color: #000;
+	margin: 0 20px;
+}
+.img-wrap {
+	text-align: center;
+	padding: 50px;
+}
+.owl-carousel .owl-item img {
+	display: inline-block;
+	width: 450px;
+	height: 250px;
+}
